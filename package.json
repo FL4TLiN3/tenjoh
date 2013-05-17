@@ -1,0 +1,16 @@
+{
+    "name": "tenjoh",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "jaken": "*"
+    },
+    "main": "./bulid.js",
+    "script": {
+        "test" : "./node_modules/mocha/bin/mocha --colors --reporter spec --ui bdd --require should --ignore-leaks --recursive"
+    },
+    "engines": {
+        "node": ">=0.8.9",
+        "npm": ">=1.1.61"
+    }
+}
