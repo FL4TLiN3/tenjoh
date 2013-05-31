@@ -9,9 +9,11 @@
         <link rel="stylesheet" href="/css/vendor/bootstrap.min.css">
         <link rel="stylesheet" href="/css/vendor/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="/css/main.css">
+        <script src="js/tenjoh.js"></script>
+        <script src="js/bootstrap.js"></script>
     </head>
     <body>
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div id="TenjohRoot" data-partial="partial/search.part" class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container-fluid">
                     <a class="brand" href="#">canJS demo</a>
@@ -27,11 +29,6 @@
             </div>
             <div class="span9">
             </div>
-        </div><!-- /container -->
-
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="/js/vendor/canjs/can.jquery.min.js"></script>
-        <script src="/js/vendor/bootstrap.min.js"></script>
-        <script src="/js/main.js"></script>
+        </div>
     </body>
 </html>
