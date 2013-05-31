@@ -23,3 +23,7 @@ app.get('user/', function(req, res) {
         }];
     });
 });
+
+app.select('#button').once('click', function(event, done) {
+    app.select('#title').innerHTML = 'Hello, World!!';
+});
